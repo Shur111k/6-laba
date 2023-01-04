@@ -1,0 +1,74 @@
+body{
+    background: rgb(82, 50, 50);
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background-color: rgb(246, 166, 239);
+    color: #000000;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+}
+
+.download-btn {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #000000;
+}
+
+.download-btn:hover {
+    background-color: #a6fc8c;
+    color: #070000;
+}
+
+.clear-btn {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #000000;
+}
+
+.clear-btn:hover {
+    background-color: #f55050;
+    color: #070000;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card {
+    background-color: rgb(93, 93, 93);
+    border-radius: 20px;
+    min-height: 400px;
+    text-align: left;
+    font-size: 14px;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
